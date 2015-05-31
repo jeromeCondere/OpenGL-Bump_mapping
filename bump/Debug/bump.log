@@ -1,0 +1,56 @@
+﻿La génération a démarré 14/05/2012 12:52:28.
+     1>Projet "C:\Users\ghost\Desktop\Projects\bump\bump\bump.vcxproj" sur le nœud 2 (build cible(s)).
+     1>InitializeBuildStatus:
+         Création de "Debug\bump.unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D GLEW_STATIC /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt glew.c
+         glew.c
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(1759): error C2061: erreur de syntaxe : identificateur '__glewGetPointervEXT'
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(1759): error C2059: erreur de syntaxe : ';'
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(1759): error C2513: '/*global*/ ' : aucune variable déclarée avant '='
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(1855): error C2061: erreur de syntaxe : identificateur '__glewBufferRegionEnabledEXT'
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(1855): error C2059: erreur de syntaxe : ';'
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(1855): error C2513: '/*global*/ ' : aucune variable déclarée avant '='
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(1856): error C2061: erreur de syntaxe : identificateur '__glewDeleteBufferRegionEXT'
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(1856): error C2059: erreur de syntaxe : ';'
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(1856): error C2513: '/*global*/ ' : aucune variable déclarée avant '='
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(1857): error C2061: erreur de syntaxe : identificateur '__glewDrawBufferRegionEXT'
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(1857): error C2059: erreur de syntaxe : ';'
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(1857): error C2513: '/*global*/ ' : aucune variable déclarée avant '='
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(1858): error C2061: erreur de syntaxe : identificateur '__glewNewBufferRegionEXT'
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(1858): error C2059: erreur de syntaxe : ';'
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(1858): error C2513: '/*global*/ ' : aucune variable déclarée avant '='
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(1859): error C2061: erreur de syntaxe : identificateur '__glewReadBufferRegionEXT'
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(1859): error C2059: erreur de syntaxe : ';'
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(1859): error C2513: '/*global*/ ' : aucune variable déclarée avant '='
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(6220): error C2065: 'glGetPointervEXT' : identificateur non déclaré
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(6220): error C2065: 'PFNGLGETPOINTERVEXTPROC' : identificateur non déclaré
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(6220): error C2146: erreur de syntaxe : absence de ')' avant l'identificateur 'wglGetProcAddress'
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(6237): error C2061: erreur de syntaxe : identificateur '_glewInit_GL_EXT_vertex_attrib_64bit'
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(6237): error C2059: erreur de syntaxe : ';'
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(6237): error C2059: erreur de syntaxe : 'type'
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(6477): error C2065: 'glBufferRegionEnabledEXT' : identificateur non déclaré
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(6477): error C2065: 'PFNGLBUFFERREGIONENABLEDEXTPROC' : identificateur non déclaré
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(6477): error C2146: erreur de syntaxe : absence de ')' avant l'identificateur 'wglGetProcAddress'
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(6478): error C2065: 'glDeleteBufferRegionEXT' : identificateur non déclaré
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(6478): error C2065: 'PFNGLDELETEBUFFERREGIONEXTPROC' : identificateur non déclaré
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(6478): error C2146: erreur de syntaxe : absence de ')' avant l'identificateur 'wglGetProcAddress'
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(6479): error C2065: 'glDrawBufferRegionEXT' : identificateur non déclaré
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(6479): error C2065: 'PFNGLDRAWBUFFERREGIONEXTPROC' : identificateur non déclaré
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(6479): error C2146: erreur de syntaxe : absence de ')' avant l'identificateur 'wglGetProcAddress'
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(6480): error C2065: 'glNewBufferRegionEXT' : identificateur non déclaré
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(6480): error C2065: 'PFNGLNEWBUFFERREGIONEXTPROC' : identificateur non déclaré
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(6480): error C2146: erreur de syntaxe : absence de ')' avant l'identificateur 'wglGetProcAddress'
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(6481): error C2065: 'glReadBufferRegionEXT' : identificateur non déclaré
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(6481): error C2065: 'PFNGLREADBUFFERREGIONEXTPROC' : identificateur non déclaré
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(6481): error C2146: erreur de syntaxe : absence de ')' avant l'identificateur 'wglGetProcAddress'
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(6498): error C2061: erreur de syntaxe : identificateur '_glewInit_GL_MESA_resize_buffers'
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(6498): error C2059: erreur de syntaxe : ';'
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(6498): error C2059: erreur de syntaxe : 'type'
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(8859): warning C4013: '_glewInit_GL_EXT_vertex_attrib_64bit' non défini(e) ; extern retournant int pris par défaut
+     1>c:\users\ghost\desktop\projects\bump\bump\glew.c(8936): warning C4013: '_glewInit_GL_MESA_resize_buffers' non défini(e) ; extern retournant int pris par défaut
+     1>Génération du projet "C:\Users\ghost\Desktop\Projects\bump\bump\bump.vcxproj" terminée (build cible(s)) -- ÉCHEC.
+
+ÉCHEC de la build.
+
+Temps écoulé 00:00:03.33

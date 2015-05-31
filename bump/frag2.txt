@@ -1,0 +1,14 @@
+uniform sampler2D Tex0;
+varying float intensite;
+varying vec2 coord;
+
+void main(void)
+{
+
+
+
+
+vec3 color=vec3(texture(Tex0,coord));
+color=1-color;
+   gl_FragColor = vec4(color*intensite, 1.0 );
+}

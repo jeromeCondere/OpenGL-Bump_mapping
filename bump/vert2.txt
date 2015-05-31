@@ -1,0 +1,25 @@
+
+varying  float intensite;
+uniform vec3 lightPosition;
+varying vec2 coord;
+uniform sampler2D Tex0;
+
+const float speCont=0.1;
+const float diffCont=1.0-speCont;
+void main(void)
+{
+vec3 ecPosition=vec3(gl_ModelViewMatrix*gl_Vertex);
+vec3 norm=normalize(gl_NormalMatrix*gl_Normal);
+vec3 lightVec=normalize(lightPosition-ecPosition);
+
+vec3 reflectVec=reflect(-lightVec,norm);
+vec3 eVec=normalize(-ecPosition);
+float spec = clamp(dot(reflectVec,eVec),0.0,1.0);
+spec=pow(spec,16.0);
+intensite=diffCont*max(dot(lightVec,norm),0.0)+speCont*spec;
+
+
+
+coord=gl_MultiTexCoord0.st;
+   gl_Position = ftransform();
+}
